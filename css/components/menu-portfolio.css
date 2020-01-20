@@ -1,0 +1,22 @@
+.menu-portfolio {
+    display: flex;
+    padding: 10px 0;
+}
+
+.menu-portfolio .action {
+    font-size: 1.12em;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid yellow;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.menu-portfolio .action:hover {
+    border-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-portfolio .action:not(:last-child){
+    margin-right: 40px;
+}
