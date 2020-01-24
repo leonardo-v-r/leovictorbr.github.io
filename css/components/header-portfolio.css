@@ -25,3 +25,17 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (max-width:760px){
+    .header-portfolio .container {
+        width: 100vw;
+    }
+    .header-portfolio .name{
+        font-size: 3.5rem;
+    }
+
+    .header-portfolio .specialty {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
