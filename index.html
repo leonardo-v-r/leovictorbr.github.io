@@ -4,26 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Personal Website</title>
+    <title>Portfolio - Leonardo Victor Ribeiro</title>
+    <!-- reset -->
     <link rel="stylesheet" href="./css/generic/reset.css">
     <link rel="stylesheet" href="./css/generic/base.css">
-    <link rel="stylesheet" href="./css/generic/container.css">
+    <!-- header -->
     <link rel="stylesheet" href="./css/components/header-portfolio.css">
-    <link rel="stylesheet" href="./css/components/logo-portfolio.css">
     <link rel="stylesheet" href="./css/components/menu-portfolio.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/components/contact-list.css">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="https://kit.fontawesome.com/9fcb5cb7c7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <header class="header-portfolio">
-            <h1 class="logo-portfolio">Leonardo V. Ribeiro</h1>
-            <nav class="menu-portfolio">
-                    <a href="#" class="action">Home</a>
-                    <a href="#" class="action">Sobre</a>
-                    <a href="#" class="action">Contato</a>
-            </nav>
-        </header>
-    </div>
+    <header class="header-portfolio">
+        <div class="container">
+            <h1 class="name">Leonardo Victor</h1>
+            <h2 class="specialty">Desenvolvedor de Software</h2>
+    
 
+            <div class="contact-list">
+                <a href="#" class="contact"><i class="icon fa fa-envelope"></i></a>
+                <a href="#" class="contact"><i class="icon fab fa-linkedin-in"></i></a>
+                <a href="#" class="contact"><i class="icon fab fa-github-alt"></i></a>
+            </div>
+
+            <nav class="navigation-portfolio">
+                <ul class="menu-portfolio">
+                    <li><a href="#about-me" class="action">Sobre</a></li>
+                    <li><a href="#" class="action">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about-me" class="my-expertise">
+        <h2 class="title">Minhas habilidades</h2>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus recusandae ut tempore, ad eligendi, doloribus sint, necessitatibus inventore vel consectetur dolores soluta. Eum, eveniet provident consectetur nisi iure et modi.</p>
+
+        <h3>Frontend</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam rerum accusantium reiciendis? Quo error reiciendis incidunt facere fuga optio commodi temporibus iusto nemo! Aliquid sit distinctio libero reprehenderit harum?</p>
+
+
+        <h3>Backend</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum harum nobis doloribus quod consequuntur, iusto soluta numquam quas temporibus corporis minus, nostrum incidunt placeat iste totam corrupti obcaecati in itaque!</p>
+
+
+        <h3>Ferramentas</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ea, expedita voluptate magni ut natus minima nesciunt nostrum obcaecati necessitatibus sit aspernatur, ullam tenetur voluptates consectetur? Expedita, culpa. Minima, voluptatem.</p>
+    </section>
+
+    <section class="my-projects">
+        <h2>Projetos em que atuei</h2>
+        <dl>
+            <dt>Nome do projeto</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+        </dl>
+
+        <dl>
+            <dt>Nome do projeto</dt>
+            <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</dd>
+        </dl>
+    </section>
 </body>
 </html>
